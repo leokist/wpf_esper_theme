@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ===================================================== -->
+    <!--                  DEFAULT BORDER STYLE                 -->
+    <!-- ===================================================== -->
+    <Style x:Key="BorderStyle" TargetType="Border">
+
+        <!-- APARÊNCIA -->
+        <Setter Property="Background" Value="{DynamicResource BackgroundCardBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource BorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="Padding" Value="5" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+    </Style>
+
+    <!-- ===================================================== -->
+    <!--                   ERROR BORDER STYLE                  -->
+    <!-- ===================================================== -->
+    <Style x:Key="BorderErrorStyle" TargetType="Border">
+
+        <!-- APARÊNCIA -->
+        <Setter Property="Background" Value="{DynamicResource BackgroundCardBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource DangerBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="Padding" Value="5" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+    </Style>
+
+</ResourceDictionary>

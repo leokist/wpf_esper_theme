@@ -1,0 +1,136 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <!-- ========================================================= -->
+    <!--                       FONT FAMILIES                       -->
+    <!-- ========================================================= -->
+
+    <!-- Fonte principal da aplicação -->
+    <FontFamily x:Key="FontFamilyDefault">Segoe UI Variable</FontFamily>
+    <!-- Fonte monospace da aplicação -->
+    <FontFamily x:Key="FontFamilyMonospace">Cascadia Code</FontFamily>
+    <!-- Fonte de ícones -->
+    <FontFamily x:Key="FontFamilyIcons">Segoe Fluent Icons</FontFamily>
+
+    <!-- ========================================================= -->
+    <!--                       FONT SIZES                          -->
+    <!-- ========================================================= -->
+
+    <sys:Double x:Key="FontSizeSmall">9</sys:Double>
+    <sys:Double x:Key="FontSizeNormal">11</sys:Double>
+    <sys:Double x:Key="FontSizeMedium">13</sys:Double>
+    <sys:Double x:Key="FontSizeLarge">15</sys:Double>
+    <sys:Double x:Key="FontSizeTitle">18</sys:Double>
+
+    <!-- IMPORTANTE:
+         Para usar sys:Double você precisa adicionar:
+         xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    -->
+
+    <!-- ========================================================= -->
+    <!--                          TEXTBLOCK                        -->
+    <!-- ========================================================= -->
+
+    <!-- TextBlock Padrão -->
+    <Style x:Key="TextBlockDefaultStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource FontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeNormal}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+
+    <!-- TextBlock Título 1 -->
+    <Style x:Key="TextBlockTitleStyle" TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="FontSize" Value="{StaticResource FontSizeTitle}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+
+    <!-- TextBlock Título 2 -->
+    <Style x:Key="TextBlockTitle2Style" TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="FontSize" Value="{StaticResource FontSizeLarge}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    
+    <!-- TextBlock Título 3 -->
+    <Style x:Key="TextBlockTitle3Style" TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="FontSize" Value="{StaticResource FontSizeMedium}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    
+    <!-- TextBlock Corpo -->
+    <Style x:Key="TextBlockBodyStyle" TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="FontSize" Value="{StaticResource FontSizeNormal}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextSecondaryBrush}" />
+    </Style>
+
+    <!-- TextBlock Corpo Pequeno -->
+    <Style x:Key="TextBlockSmallStyle" TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="FontSize" Value="{StaticResource FontSizeSmall}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Margin" Value="0,0,0,4" />
+    </Style>
+
+    <!-- ========================================================= -->
+    <!--                       ERROR TEXT                          -->
+    <!-- ========================================================= -->
+
+    <Style x:Key="ErrorTextStyle"
+           TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="Foreground"
+                Value="{DynamicResource DangerBrush}" />
+
+        <Setter Property="FontSize"
+                Value="{StaticResource FontSizeSmall}" />
+
+    </Style>
+
+
+    <!-- ========================================================= -->
+    <!--                     SUCCESS TEXT                          -->
+    <!-- ========================================================= -->
+
+    <Style x:Key="SuccessTextStyle" TargetType="TextBlock"
+           BasedOn="{StaticResource TextBlockDefaultStyle}">
+
+        <Setter Property="Foreground" Value="{DynamicResource SuccessBrush}" />
+    </Style>
+
+
+    <!-- ========================================================= -->
+    <!--                     TEXTBOX DEFAULT                       -->
+    <!-- ========================================================= -->
+
+    <Style x:Key="DefaultTextBoxTypography" TargetType="TextBox">
+
+        <Setter Property="FontFamily" Value="{StaticResource FontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeNormal}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+
+    </Style>
+
+
+    <!-- ========================================================= -->
+    <!--                      BUTTON TYPOGRAPHY                    -->
+    <!-- ========================================================= -->
+
+    <Style x:Key="DefaultButtonTypography" TargetType="Button">
+
+        <Setter Property="FontFamily" Value="{StaticResource FontFamilyDefault}" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeNormal}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    
+</ResourceDictionary>

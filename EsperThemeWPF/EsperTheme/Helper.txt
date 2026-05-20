@@ -1,0 +1,22 @@
+﻿
+
+########################################################
+            PARA UTILIZAR EM ALGUM PROJETO
+########################################################
+
+1 - Adicionar referência do projeto
+  |--> No projeto alvo: adicionar referência para o projeto Tema:
+    |--> Dependencies / References
+    |--> Add Project Reference
+    |--> Marcar o projeto Tema
+
+2 - No projeto alvo:
+ |--> Abra  o arquivo App.xaml:
+    |--> Dentro de <Application.Resources> adicione:
+
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="/EsperTheme;component/Themes/Generic.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+

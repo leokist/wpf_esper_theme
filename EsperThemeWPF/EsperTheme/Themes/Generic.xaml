@@ -1,0 +1,27 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <!-- Cores -->
+        <ResourceDictionary Source="/EsperTheme;component/Themes/Colors.xaml"/>
+        <!-- Brushes -->
+        <ResourceDictionary Source="/EsperTheme;component/Themes/Brushes.xaml"/>
+        <!-- Tipografia -->
+        <ResourceDictionary Source="/EsperTheme;component/Themes/Typography.xaml"/>
+
+        <!-- Estilos -->
+        <ResourceDictionary Source="/EsperTheme;component/Themes/Buttons.xaml"/>
+        <ResourceDictionary Source="/EsperTheme;component/Themes/TextBoxes.xaml"/>
+        <ResourceDictionary Source="/EsperTheme;component/Themes/GroupBox.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/Border.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/DataGrid.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/ComboBox.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/CheckBox.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/RadioButton.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/TabControl.xaml" />
+        <ResourceDictionary Source="/EsperTheme;component/Themes/LoadingOverlay.xaml" />
+
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

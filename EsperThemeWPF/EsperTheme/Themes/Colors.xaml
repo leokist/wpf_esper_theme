@@ -1,0 +1,102 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ========================================================= -->
+    <!--                       COR PRIMÁRIA                        -->
+    <!-- ========================================================= -->
+    
+    <!-- Cor -->
+    <Color x:Key="PrimaryColor">#4D6099</Color>
+    <!-- Cor Hover -->
+    <Color x:Key="PrimaryHoverColor">#5970B3</Color>
+    <Color x:Key="PrimaryHover2Color">#CCD9FF</Color>
+    <!-- Cor Botão Pressionado -->
+    <Color x:Key="PrimaryPressedColor">#405080</Color>
+
+    <!-- ========================================================= -->
+    <!--                      COR SECUNDÁRIA                       -->
+    <!-- ========================================================= -->
+    
+    <!-- Cor -->
+    <Color x:Key="SecondaryColor">#4D7399</Color>
+    <!-- Cor Hover -->
+    <Color x:Key="SecondaryHoverColor">#5986B3</Color>
+    <Color x:Key="SecondaryHover2Color">#CCE6FF</Color>
+    <!-- Cor Botão Pressionado -->
+    <Color x:Key="SecondaryPressedColor">#406080</Color>
+
+    <!-- ========================================================= -->
+    <!--                      COR TERCIÁRIA                        -->
+    <!-- ========================================================= -->
+
+    <!-- Cor -->
+    <Color x:Key="TertiaryColor">#4D8C99</Color>
+    <!-- Cor Hover -->
+    <Color x:Key="TertiaryHoverColor">#59A4B3</Color>
+    <Color x:Key="TertiaryHover2Color">#CCF6FF</Color>
+    <!-- Cor Botão Pressionado -->
+    <Color x:Key="TertiaryPressedColor">#407580</Color>
+
+    <!-- ========================================================= -->
+    <!--                     BACKGROUND COLORS                     -->
+    <!-- ========================================================= -->
+
+    <!-- Fundo principal -->
+    <Color x:Key="BackgroundColor">#F7F7F7</Color>
+    <!-- Fundo de cards -->
+    <Color x:Key="BackgroundCardColor">#FCFCFC</Color>
+    <!-- Fundo de painéis -->
+    <Color x:Key="BackgroundPanelColor">#F2F2F2</Color>
+    <!-- Fundo de sidebar -->
+    <Color x:Key="BackgroundSidebarColor">#F2F2F2</Color>
+    <!-- Fundo desabilitado -->
+    <Color x:Key="BackgroundDisabledColor">#EDEDED</Color>
+
+    <!-- ========================================================= -->
+    <!--                       BORDER COLORS                       -->
+    <!-- ========================================================= -->
+
+    <Color x:Key="BorderColor">#EDEDED</Color>
+
+    <!-- ========================================================= -->
+    <!--                        TEXT COLORS                        -->
+    <!-- ========================================================= -->
+
+    <Color x:Key="TextPrimaryColor">#2F2F2F</Color>
+    <Color x:Key="TextMutedColor">#262626</Color>
+    <Color x:Key="TextDisabledColor">#4D4D4D</Color>
+    <Color x:Key="TextSuccessColor">#53994D</Color>
+    <Color x:Key="TextAlertColor">#998C4D</Color>
+    <Color x:Key="TextErrorColor">#994D4D</Color>
+    <Color x:Key="TextInfoColor">#4D9399</Color>
+    <Color x:Key="TextButtonColor">#FFFFFF</Color>
+
+    <!-- ========================================================= -->
+    <!--                       STATUS COLORS                       -->
+    <!-- ========================================================= -->
+
+    <!-- COR DE SUCESSO -->
+    <Color x:Key="SuccessColor">#53994D</Color>
+    <Color x:Key="SuccessHoverColor">#61B359</Color>
+    <Color x:Key="SuccessHover2Color">#D0FFCC</Color>
+    <Color x:Key="SuccessPressedColor">#458040</Color>
+    
+    <!-- COR DE ALERTA -->
+    <Color x:Key="WarningColor">#998C4D</Color>
+    <Color x:Key="WarningHoverColor">#B3A459</Color>
+    <Color x:Key="WarningHover2Color">#FFF7CC</Color>
+    <Color x:Key="WarningPressedColor">#807540</Color>
+    
+    <!-- COR DE ERRO -->
+    <Color x:Key="DangerColor">#994D4D</Color>
+    <Color x:Key="DangerHoverColor">#B35959</Color>
+    <Color x:Key="DangerHover2Color">#FFCCCC</Color>
+    <Color x:Key="DangerPressedColor">#804040</Color>
+    
+    <!-- COR DE INFORMAÇÃO -->
+    <Color x:Key="InfoColor">#4D9399</Color>
+    <Color x:Key="InfoHoverColor">#59ABB3</Color>
+    <Color x:Key="InfoHover2Color">#CCFBFF</Color>
+    <Color x:Key="InfoPressedColor">#407A80</Color>
+
+</ResourceDictionary>

@@ -1,0 +1,75 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ========================================================= -->
+    <!--                    SOLID COLOR BRUSHES                    -->
+    <!-- ========================================================= -->
+
+    <!-- PRIMARY -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{DynamicResource PrimaryColor}" />
+    <SolidColorBrush x:Key="PrimaryHoverBrush" Color="{DynamicResource PrimaryHoverColor}" />
+    <SolidColorBrush x:Key="PrimaryHover2Brush" Color="{DynamicResource PrimaryHover2Color}" />
+    <SolidColorBrush x:Key="PrimaryPressedBrush" Color="{DynamicResource PrimaryPressedColor}" />
+
+    <!-- SECONDARY -->
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{DynamicResource SecondaryColor}" />
+    <SolidColorBrush x:Key="SecondaryHoverBrush" Color="{DynamicResource SecondaryHoverColor}" />
+    <SolidColorBrush x:Key="SecondaryHover2Brush" Color="{DynamicResource SecondaryHover2Color}" />
+    <SolidColorBrush x:Key="SecondaryPressedBrush" Color="{DynamicResource SecondaryPressedColor}" />
+
+    <!-- TERTIARY -->
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{DynamicResource TertiaryColor}" />
+    <SolidColorBrush x:Key="TertiaryHoverBrush" Color="{DynamicResource TertiaryHoverColor}" />
+    <SolidColorBrush x:Key="TertiaryHover2Brush" Color="{DynamicResource TertiaryHover2Color}" />
+    <SolidColorBrush x:Key="TertiaryPressedBrush" Color="{DynamicResource TertiaryPressedColor}" />
+
+    <!-- BACKGROUNDS -->
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{DynamicResource BackgroundColor}" />
+    <SolidColorBrush x:Key="BackgroundCardBrush" Color="{DynamicResource BackgroundCardColor}" />
+    <SolidColorBrush x:Key="BackgroundPanelBrush" Color="{DynamicResource BackgroundPanelColor}" />
+    <SolidColorBrush x:Key="BackgroundSidebarBrush" Color="{DynamicResource BackgroundSidebarColor}" />
+    <SolidColorBrush x:Key="BackgroundDisabledBrush" Color="{DynamicResource BackgroundDisabledColor}" />
+
+    <!-- BORDERS -->
+    <SolidColorBrush x:Key="BorderBrush" Color="{DynamicResource BorderColor}" />
+    <SolidColorBrush x:Key="BorderFocusBrush" Color="{DynamicResource BorderPrimaryColor}" />
+
+    <!-- TEXT -->
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{DynamicResource TextPrimaryColor}" />
+    <SolidColorBrush x:Key="TextMutedBrush" Color="{DynamicResource TextMutedColor}" />
+    <SolidColorBrush x:Key="TextDisabledBrush" Color="{DynamicResource TextDisabledColor}" />
+    <SolidColorBrush x:Key="TextSuccessBrush" Color="{DynamicResource TextSuccessColor}" />
+    <SolidColorBrush x:Key="TextAlertBrush" Color="{DynamicResource TextAlertColor}" />
+    <SolidColorBrush x:Key="TextDangerBrush" Color="{DynamicResource TextErrorColor}" />
+    <SolidColorBrush x:Key="TextInfoBrush" Color="{DynamicResource TextInfoColor}" />
+    <SolidColorBrush x:Key="TextButtonBrush" Color="{DynamicResource TextButtonColor}" />
+    
+    <!-- STATUS -->
+    <SolidColorBrush x:Key="SuccessBrush" Color="{DynamicResource SuccessColor}" />
+    <SolidColorBrush x:Key="SuccessHoverBrush" Color="{DynamicResource SuccessHoverColor}" />
+    <SolidColorBrush x:Key="SuccessHover2Brush" Color="{DynamicResource SuccessHover2Color}" />
+    <SolidColorBrush x:Key="SuccessPressedBrush" Color="{DynamicResource SuccessPressedColor}" />
+
+    <SolidColorBrush x:Key="WarningBrush" Color="{DynamicResource WarningColor}" />
+    <SolidColorBrush x:Key="WarningHoverBrush" Color="{DynamicResource WarningHoverColor}" />
+    <SolidColorBrush x:Key="WarningHover2Brush" Color="{DynamicResource WarningHover2Color}" />
+    <SolidColorBrush x:Key="WarningPressedBrush" Color="{DynamicResource WarningPressedColor}" />
+
+    <SolidColorBrush x:Key="DangerBrush" Color="{DynamicResource DangerColor}" />
+    <SolidColorBrush x:Key="DangerHoverBrush" Color="{DynamicResource DangerHoverColor}" />
+    <SolidColorBrush x:Key="DangerHover2Brush" Color="{DynamicResource DangerHover2Color}" />
+    <SolidColorBrush x:Key="DangerPressedBrush" Color="{DynamicResource DangerPressedColor}" />
+
+    <SolidColorBrush x:Key="InfoBrush" Color="{DynamicResource InfoColor}" />
+    <SolidColorBrush x:Key="InfoHoverBrush" Color="{DynamicResource InfoHoverColor}" />
+    <SolidColorBrush x:Key="InfoHover2Brush" Color="{DynamicResource InfoHover2Color}" />
+    <SolidColorBrush x:Key="InfoPressedBrush" Color="{DynamicResource InfoPressedColor}" />
+
+    <!-- ========================================================= -->
+    <!--                  TRANSPARENT BRUSHES                      -->
+    <!-- ========================================================= -->
+
+    <SolidColorBrush x:Key="OverlayBrush" Color="#80000000" />
+    <SolidColorBrush x:Key="TransparentBrush" Color="Transparent" />
+
+</ResourceDictionary>
